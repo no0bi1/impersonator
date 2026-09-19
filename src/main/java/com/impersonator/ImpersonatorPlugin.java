@@ -28,7 +28,7 @@ import net.runelite.client.plugins.PluginDescriptor;
 public class ImpersonatorPlugin extends Plugin
 {
     private static final int NO_TRANSFORM = -1;
-    private static final String CONFIG_GROUP = "impersonatorplugin";
+    private static final String CONFIG_GROUP = "impersonator-plugin";
     private static final String CONFIG_PREFIX = "player.";
 
     private final Map<Player, Integer> originalTransforms = new HashMap<>();
